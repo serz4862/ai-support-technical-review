@@ -1,0 +1,33 @@
+{
+  "source_repository": "serz4862/AiSupport",
+  "source_commit": "0f22b40fdb496cdb1a4d4ca12c6ef4d96fd3a09e",
+  "source_branch": "rag/frontier-quality",
+  "remote_verification": "Unavailable: connected GitHub app returns 404; provenance is from local Git objects, not a refreshed remote.",
+  "files": [
+    {
+      "review_path": "src/ticket_state.py",
+      "source_path": "apps/api/src/aisupport_api/services/ticket_state.py",
+      "source_blob_sha": "93aec39942b4bc05de535b9960ecff340b4a6d35",
+      "source_last_change_sha": "887d1e50c86595de7da7b23cdd7a4305d827539e",
+      "treatment": "Exact source copy at local HEAD.",
+      "sha256": "3f5d017810a8f11fa389ab6af916aa7c9f6d84239e1f0b2efe4d2675648749b2"
+    },
+    {
+      "review_path": "src/rank_fusion.py",
+      "source_path": "apps/api/src/aisupport_api/services/retrieval_hybrid.py",
+      "source_blob_sha": "73a463ecc883f248453cbeb9e695ec4e5e067bb6",
+      "source_last_change_sha": "0f22b40fdb496cdb1a4d4ca12c6ef4d96fd3a09e",
+      "treatment": "Only rrf_fuse extracted verbatim; standalone docstring and standard-library imports added.",
+      "sha256": "6eecc4a82f50e4b93a64725c972f8a9db5fa9ce9a870962b9b665707d67b6e85"
+    },
+    {
+      "review_path": "tests/test_review.py",
+      "source_path": "apps/api/tests/unit/test_ticket_state.py",
+      "source_blob_sha": "89079530fbc0353ec37d1e98fcc839cbb8c6574b",
+      "source_last_change_sha": "887d1e50c86595de7da7b23cdd7a4305d827539e",
+      "treatment": "Five ticket scenarios adapted from pytest to unittest; three rank-fusion tests newly written by Codex.",
+      "sha256": "db374aad9db5cfa796d450931528b2c15133aa551a919884534231a09f3be73b"
+    }
+  ],
+  "other_files": "Documentation, dependency shims and test harnesses were prepared with OpenAI Codex for this assessment; they are not evidence of previously shipped functionality."
+}
